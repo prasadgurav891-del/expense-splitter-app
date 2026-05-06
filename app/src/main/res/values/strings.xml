@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Splitshare</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="we_will_send_you_an_otp_on_this_given_number">we will send you an OTP on this given number</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="_91">+91</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="otp_verification1">OTP Verification</string>
+    <string name="please_enter_the_otp_sent_to_you">Please Enter the Otp sent to you</string>
+    <string name="didn_t_receive_otp">Didn\'t receive OTP</string>
+    <string name="didn_t_receive_otp1">didn\t receive OTP</string>
+    <string name="resend_otp_again">RESEND OTP AGAIN</string>
+    <string name="submit">Submit</string>
+    <string name="otphint2" />
+    <string name="_2">2</string>
+    <string name="todo">TODO</string>
+    <string name="_9764886907">9764886907</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="splitshare">Splitshare</string>
+    <string name="welcome_to_mainactivity">Welcome to MainActivity!</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="groups">Groups</string>
+    <string name="activity">Activity</string>
+    <string name="email_reminder">Email Reminder</string>
+    <string name="profile">Profile</string>
+    <string name="logout">LogOut</string>
+    <string name="cleared_dues_with_cash">Cleared dues with cash</string>
+
+</resources>

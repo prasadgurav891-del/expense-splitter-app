@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Group"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Group Name EditText -->
+    <EditText
+        android:id="@+id/editGroupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter group name"
+        android:padding="16dp"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Group Description EditText -->
+    <EditText
+        android:id="@+id/editGroupDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter group description"
+        android:padding="16dp"
+        android:layout_below="@id/editGroupName"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Number of Members EditText -->
+    <EditText
+        android:id="@+id/editNumberOfMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number of members"
+        android:inputType="number"
+        android:padding="16dp"
+        android:layout_below="@id/editGroupDescription"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Generate Members Button -->
+    <Button
+        android:id="@+id/btnGenerateMembers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Member Fields"
+        android:layout_below="@id/editNumberOfMembers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- ScrollView for Member Fields -->
+    <ScrollView
+        android:id="@+id/scrollViewMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnGenerateMembers"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <!-- LinearLayout for dynamically added member fields -->
+        <LinearLayout
+            android:id="@+id/linearLayoutMembers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Static Text inside the ScrollView -->
+            <TextView
+                android:id="@+id/tvPlaceholderText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Here you can enter details of each group member."
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvInstructionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Once you click on 'Generate Member Fields', input fields for each member will appear."
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- You can add more static text or placeholders as needed -->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Create Group Button -->
+    <Button
+        android:id="@+id/btnCreateGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Group"
+        android:layout_below="@id/scrollViewMembers"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

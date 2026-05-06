@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- User Information Section -->
+    <TextView
+        android:id="@+id/tvNewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvNewUserPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Phone"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Debts and Credits Heading -->
+    <TextView
+        android:id="@+id/tvNewDebtHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Debts and Credits Summary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Information Text -->
+    <TextView
+        android:id="@+id/tvNewDebtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This section displays a summary of your debts and credits."
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- ScrollView for Dynamic Debt and Credit Entries -->
+
+    <!-- Clear Debts Button -->
+    <ScrollView
+        android:id="@+id/scrollViewNewDebts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutDebts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNewDebtDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Here you can see your debts and credits"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <Button
+        android:id="@+id/btnClearNewDebts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Debts"
+        android:layout_marginTop="16dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addexpense">
+
+    <!-- Expense Name -->
+    <EditText
+        android:id="@+id/etExpenseName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Expense Name"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Expense Description -->
+    <EditText
+        android:id="@+id/etExpenseDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Expense Description"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/etExpenseName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Expense Amount -->
+    <EditText
+        android:id="@+id/etExpenseAmount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/etExpenseDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Expense Date -->
+    <EditText
+        android:id="@+id/etExpenseDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:inputType="date"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/etExpenseAmount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- ScrollView for Members -->
+    <ScrollView
+        android:id="@+id/scrollViewMembers"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/etExpenseDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- LinearLayout to hold TextView and CheckBoxes -->
+        <LinearLayout
+            android:id="@+id/memberContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TextView Above Checkboxes -->
+            <TextView
+                android:id="@+id/tvMembersTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Members"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmitExpense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Submit Expense"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/scrollViewMembers"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

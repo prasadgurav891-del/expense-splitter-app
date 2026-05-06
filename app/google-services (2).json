@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "330131247905",
+    "project_id": "splitshare-ed126",
+    "storage_bucket": "splitshare-ed126.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330131247905:android:e3fabc9b1328150794e460",
+        "android_client_info": {
+          "package_name": "com.example.splitshare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYD8N3hc2u7NzRda0F-CwemDUVcKkusGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
