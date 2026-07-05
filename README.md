@@ -21,5 +21,18 @@ Android application for splitting expenses among friends and groups.
 - Dark Mode
 - Analytics Dashboard
 
+  <table>
+  <tr>
+    <td><img src="screenshots/login.png" width="250"></td>
+    <td><img src="screenshots/dashboard.png" width="250"></td>
+    <td><img src="screenshots/addExpense.png" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/group-details.png" width="250"></td>
+    <td><img src="screenshots/balances.png" width="250"></td>
+    <td><img src="screenshots/settlement.png" width="250"></td>
+  </tr>
+</table>
+
 ## Author
 Prasad Gurav
