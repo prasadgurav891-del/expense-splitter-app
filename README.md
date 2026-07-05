@@ -39,7 +39,7 @@ Android application for splitting expenses among friends and groups.
   </tr>
   <tr>
     <td><img src="screenshots/debtHistory.jpeg" width="250"></td>
-    <td><img src="screenshots/debtHistor 2.jpeg" width="250"></td>
+    <td><img src="screenshots/debtHistory 2.jpeg" width="250"></td>
     <td><img src="screenshots/expenses.jpeg" width="250"></td>
   </tr>
 </table>
