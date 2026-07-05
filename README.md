@@ -23,7 +23,7 @@ Android application for splitting expenses among friends and groups.
 
   <table>
   <tr>
-    <td><img src="screenshots/login.png" width="250"></td>
+    <td><img src="screenshots/login 1.png" width="250"></td>
     <td><img src="screenshots/dashboard.png" width="250"></td>
     <td><img src="screenshots/addExpense.png" width="250"></td>
   </tr>
