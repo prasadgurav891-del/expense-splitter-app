@@ -24,13 +24,23 @@ Android application for splitting expenses among friends and groups.
   <table>
   <tr>
     <td><img src="screenshots/login 1.jpeg" width="250"></td>
-    <td><img src="screenshots/dashboard.png" width="250"></td>
-    <td><img src="screenshots/addExpense.png" width="250"></td>
+    <td><img src="screenshots/login 2.jpeg" width="250"></td>
+    <td><img src="screenshots/dashboard.jpeg" width="250"></td>
   </tr>
   <tr>
-    <td><img src="screenshots/group-details.png" width="250"></td>
-    <td><img src="screenshots/balances.png" width="250"></td>
-    <td><img src="screenshots/settlement.png" width="250"></td>
+    <td><img src="screenshots/profile.jpeg" width="250"></td>
+    <td><img src="screenshots/groups.jpeg" width="250"></td>
+    <td><img src="screenshots/createGroup.jpeg" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/groupDescription.jpeg" width="250"></td>
+    <td><img src="screenshots/members.jpeg" width="250"></td>
+    <td><img src="screenshots/addExpense.jpeg" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/debtHistory.jpeg" width="250"></td>
+    <td><img src="screenshots/debtHistor 2.jpeg" width="250"></td>
+    <td><img src="screenshots/expenses.jpeg" width="250"></td>
   </tr>
 </table>
 
